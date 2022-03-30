@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body{
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: rgb(255, 255, 255);
+	background-image: url(https://previews.123rf.com/images/logomatch/logomatch1704/logomatch170400029/77028791-abstract-lines-pattern-design-background-in-black-and-white.jpg);
+	color : grey;
+}
+h1, h2, h3, h4, {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: red;
+}
+h1 {
+	color: #0080ff ;
+}
+
+h2 {
+	color: #427580 ;
+}
+div {
+	margin: 30px;
+	padding : 10px 20px;
+	border: 3px grey;
+	background-color: rgb(242, 244, 245, 3);
+	background-radius : 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+}
+.Photo {
+	border-radius: 30%;
+}
+.button-blue {
+	background-color: rgb(144, 221, 238);
+	padding : 15px;
+	border-radius: 6px;
+	font-weight: bold;
+	width: 25%;
+	margin: 15px auto;
+	display: block;
+	text-align: center;
+	border: 1px rgb(109, 171, 184);
+}
+
+.button-blue:hover {
+	background-color: white;
+	transition: 1s;
+ }
+
+  .list-inline a {
+ 	font-size: 48px;
+ 	color : rgba(0, 0 ,0, 3);
+ }
+
+ .list-inline a: hover {
+	background-color: rgb(0, 0, 0, 3);
+	transition: 1s;
+ }
+
+ .photoprofil {
+ 	margin: 80px;
+	padding : 10px 10px;
+ }
+
+ .Contact {
+ 	margin: 80px;
+	padding : 10px 10px;
+ }
+
+ .présentation {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color:#0080ff;
+ }
+ .missions {
+ 	margin: 80px;
+	padding : 10px 10px;
+	background-color: rgb(144, 221, 238);
+	display: block;
+	border: 1px rgb(109, 171, 184);
+ }
+ .exp-desc {
+ 	margin: 80px;
+	padding : 10px 10px;
+	background-color: rgb(144, 221, 238);
+	display: block;
+	border: 1px rgb(109, 171, 184);
+ }
+ .intro{
+ 	display: flex;
+ }
